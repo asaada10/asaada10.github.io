@@ -1,3 +1,4 @@
+/* https://es.stackoverflow.com/questions/55601/texto-flotante-al-pasar-el-cursor-por-sobre-una-imagen */
 /* Invisible texto */
 figcaption {
     display: none;
@@ -7,4 +8,9 @@ figcaption {
 figure:hover > figcaption {
     display:block;
     transition: all .5s;
+}
+.principal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
