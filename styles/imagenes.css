@@ -9,4 +9,10 @@ figure:hover > figcaption {
     display:block;
     transition: all .5s;
 }
+.principal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
