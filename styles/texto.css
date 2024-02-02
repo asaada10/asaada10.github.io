@@ -1,7 +1,30 @@
 h1 {
     text-align: center;
     font-size: 2em;
-    margin: 0.5em 0;
+    margin: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#presentacion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(206, 206, 206);
+}
+
+#libromasvendido{
+    text-align: center;
+
+}
+
+#libromejorvalorado{
+    text-align: center;
+}
+
+#librodelasemana {
+    text-align: center;
+}
+
+#recomendaciones {
+    background-color: goldenrod;
+}
