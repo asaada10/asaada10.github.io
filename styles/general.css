@@ -20,20 +20,41 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+
 ul{
-    display: none;
-    
+    flex-direction: column; 
+    position: fixed;
+    background-color: #a1eeff;
+    top: 107px;
+    left: 0;
+    width: 100%;
+    visibility: hidden; 
+    list-style: none;
 }
-li:active{
-   display: block;
-    
+li{
+    position: relative;
+    width:100%;
+    left: 50%; 
+}
+li:first-child{
+    background-color: #29b4d5;
 }
 header {
-    background-color: #a1eeff;
+    /* background-color: ; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
 }
-
-
+.burger_menu{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    display: flex;
+}
+#burger_menu{
+    display: none;
+}
+#burger_menu:checked ~ ul{
+    visibility: visible;
+}
