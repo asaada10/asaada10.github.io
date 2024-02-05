@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Viga&display=swap');
+h1, h2 {
+    font-family: 'Viga', sans-serif;
+
+}
+p {
+    font-family: 'Kanit', sans-serif
+}
 h1 {
     text-align: center;
     font-size: 2em;
     margin: 2%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li {
+    font-size: 1em;
 }
 
 #presentacion{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 2%;
-    background-color: rgb(206, 206, 206);
+
 }
 
 #libromasvendido{
