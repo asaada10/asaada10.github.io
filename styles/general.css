@@ -22,39 +22,41 @@ body {
 
 
 ul{
-    flex-direction: column; 
-    position: fixed;
+    display: none;
     background-color: #a1eeff;
-    top: 107px;
     left: 0;
     width: 100%;
-    visibility: hidden; 
     list-style: none;
 }
 li{
     position: relative;
     width:100%;
-    left: 50%; 
+ 
 }
 li:first-child{
     background-color: #29b4d5;
 }
 header {
     /* background-color: ; */
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
+    background-color: #a1eeff;
+    top: 0;
+    position: sticky;
+}
+header img {
     padding: 10px;
-    align-items: center;
+
 }
 .burger_menu{
+
+    display: block;
     position: absolute;
-    top: 2%;
-    left: 50%;
-    display: flex;
+    right: 0;
+    top: 0;
 }
-#burger_menu{
+header input[type="checkbox"]{
     display: none;
 }
 #burger_menu:checked ~ ul{
-    visibility: visible;
+    display: block;
 }
