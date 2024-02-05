@@ -33,9 +33,7 @@ li{
     width:100%;
  
 }
-li:first-child{
-    background-color: #29b4d5;
-}
+
 header {
     /* background-color: ; */
     overflow: hidden;
@@ -45,6 +43,7 @@ header {
 }
 header img {
     padding: 10px;
+    width: 16.66%;
 
 }
 .burger_menu{
@@ -59,4 +58,26 @@ header input[type="checkbox"]{
 }
 #burger_menu:checked ~ ul{
     display: block;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+    }
+    header img {
+        width: 8.33% !important;
+    }
+    .burger_menu{
+        display: none;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        
+    }
+    li {
+        background-color: #a1eeff;
+        width: auto;
+    }
+
 }
