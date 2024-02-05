@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Viga&display=swap');
+* {
+     font-family: 'Kanit', sans-serif
+}
 h1, h2 {
     font-family: 'Viga', sans-serif;
 
 }
-p {
-    font-family: 'Kanit', sans-serif
-}
+
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 10vw;
     margin: 2%;
 }
-li {
-    font-size: 1em;
-}
+
 
 #presentacion{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 2%;
 
 }
-
+li {
+    font-size: 4vw;
+}
 #libromasvendido{
     text-align: center;
 
@@ -37,4 +37,17 @@ li {
 
 #recomendaciones {
     background-color: goldenrod;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 5vw;
+    }
+    li {
+        font-size: 2.5vw;
+    }
+    p {
+        font-size: 2.5vw;
+    }
+    
 }

@@ -25,5 +25,5 @@ img:hover {
 }
 
 #libromasvendido img, #libromejorvalorado img{
-    max-height: 150px;
+    max-height: 25vw;
 }

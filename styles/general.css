@@ -77,15 +77,16 @@ footer {
     .burger_menu{
         display: none;
     }
-    ul {
+    header ul {
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: end;
         gap: 20px;
         margin-right: 20px;
         
     }
-    li {
+   header ul li {
         background-color: #a1eeff;
         width: auto;
     }
