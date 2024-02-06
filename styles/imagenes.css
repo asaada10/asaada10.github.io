@@ -23,3 +23,10 @@ img:hover {
     flex-wrap: wrap;
     gap: 10px;
 }
+
+#historia, #filosofia, #aventuras, #cienciaFiccion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

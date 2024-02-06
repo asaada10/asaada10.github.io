@@ -17,13 +17,15 @@ h1 {
     margin: 2%;
 }
 
-#librodelasemana, #presentacion, #otros {
-    background-color: rgba(255, 255, 255, 0.535);;
+#librodelasemana, #presentacion, #otros, #recomendaciones, #otrosCatalogo {
+    background-color: rgba(255, 255, 255, 0.535);
     border-radius: 10px;
     margin: 2%;
     padding: 2%;
 }
-
+#flisofoia1 {
+    
+}
 li {
     font-size: 4vw;
     text-align: center;
@@ -38,11 +40,6 @@ li:hover {
 #librodelasemana{
     text-align: center;
 
-}
-
-
-#recomendaciones {
-    background-color: goldenrod;
 }
 
 
