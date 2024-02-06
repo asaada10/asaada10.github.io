@@ -5,6 +5,13 @@
 }
 body {
     align-items: center;
+        background-image: url("../imagenes/biblioteca.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(6px) grayscale(1);
+
 
 }
 
@@ -24,7 +31,7 @@ body {
 
 ul{
     display: none;
-    background-color: #a1eeff;
+    background-color: rgba(255, 255, 255, 0.535);
     left: 0;
     width: 100%;
     list-style: none;
@@ -38,7 +45,7 @@ li{
 header {
     /* background-color: ; */
     overflow: hidden;
-    background-color: #a1eeff;
+    background-color: #a1eeffe0;
     top: 0;
     position: sticky;
     z-index: 1;
@@ -52,8 +59,12 @@ header img {
 
     display: block;
     position: absolute;
+    width: 12%;
     right: 0;
     top: 0;
+}
+.logo {
+    width: 12%;
 }
 header input[type="checkbox"]{
     display: none;
@@ -84,11 +95,37 @@ footer {
         justify-content: end;
         gap: 20px;
         margin-right: 20px;
+        background-color: transparent;
         
     }
    header ul li {
-        background-color: #a1eeff;
         width: auto;
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+    }
+    header img {
+        width: 4.33% !important;
+    }
+    .burger_menu{
+        display: none;
+    }
+    header ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        margin-right: 20px;
+        
+    }
+   header ul li {
+        width: auto;
+    }
+
+}
+
