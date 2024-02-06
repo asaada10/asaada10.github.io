@@ -8,3 +8,27 @@ select, input[type="submit"] {
     flex-direction: column;
     align-items: center;
 }
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+option:disabled {
+    color: black;
+    background-color: #a1eeff;
+}
+
+@media screen and (min-width: 600px) {
+    #formulario {
+        flex-direction: row;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    #formulario {
+        flex-direction: row;
+    }
+    
+}
