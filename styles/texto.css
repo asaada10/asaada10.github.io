@@ -7,33 +7,37 @@ h1, h2 {
 
 }
 
+p {
+    padding: 2%;
+}
+
 h1 {
     text-align: center;
     font-size: 10vw;
     margin: 2%;
 }
 
-
-#presentacion{
-    text-align: center;
+#librodelasemana, #presentacion, #otros {
+    background-color: rgba(255, 255, 255, 0.535);;
+    border-radius: 10px;
     margin: 2%;
-
 }
+
 li {
     font-size: 4vw;
+    text-align: center;
+    padding: 2%;
 }
-#libromasvendido{
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.535);
+}
+#libromasvendido, #libromejorvalorado, 
+#librodelasemana{
     text-align: center;
 
 }
 
-#libromejorvalorado{
-    text-align: center;
-}
-
-#librodelasemana {
-    text-align: center;
-}
 
 #recomendaciones {
     background-color: goldenrod;
@@ -48,6 +52,25 @@ li {
     }
     p {
         font-size: 2.5vw;
+    }
+    h2 {
+        font-size: 3.5vw;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 8vw;
+    }
+    li {
+        font-size: 1.5vw;
+    }
+    p {
+        font-size: 1.5vw;
+    }
+    h2 {
+        font-size: 3.5vw;
     }
     
 }
