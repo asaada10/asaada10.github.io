@@ -27,3 +27,10 @@ img:hover {
 #libromasvendido img, #libromejorvalorado img{
     max-height: 25vw;
 }
+
+#cuadros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
