@@ -96,9 +96,11 @@ footer {
         gap: 20px;
         margin-right: 20px;
         background-color: transparent;
-        
     }
-   header ul li {
+    header ul a{
+        color: black;
+    }
+    header ul li {
         width: auto;
     }
 

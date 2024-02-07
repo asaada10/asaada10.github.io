@@ -30,3 +30,12 @@ img:hover {
     flex-wrap: wrap;
     gap: 10px;
 }
+#maps{
+    display: flex;
+    justify-content: center;    
+}
+#tienda{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
