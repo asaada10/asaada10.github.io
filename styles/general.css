@@ -29,7 +29,7 @@ body {
 .col-12 {width: 100%;}
 
 
-ul{
+header ul {
     display: none;
     background-color: rgba(255, 255, 255, 0.535);
     left: 0;
@@ -106,6 +106,15 @@ footer {
 
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+tr ul {
+    list-style: none;
+}
 @media screen and (min-width: 1024px) {
     header {
         display: flex;

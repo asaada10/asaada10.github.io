@@ -1,7 +1,5 @@
 .principal {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: 30px;
 }
 img {
     object-fit: cover;
