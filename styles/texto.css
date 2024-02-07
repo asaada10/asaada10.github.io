@@ -50,14 +50,6 @@ li:hover {
 
 }
 
-
-#recomendaciones {
-    background-color: goldenrod;
-    border-radius: 10px;
-    margin: 2%;
-    padding: 2%;
-}
-
 @media screen and (min-width: 600px) {
     h1 {
         font-size: 5vw;
