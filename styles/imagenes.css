@@ -11,7 +11,7 @@ img:hover {
     filter: grayscale(100%);
 }
 
-#libromasvendido img, #libromejorvalorado img, div a img{
+#libromasvendido img, #libromejorvalorado img, div a img, #formulario img{
     max-height: 25vw;
 }
 
