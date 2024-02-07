@@ -23,8 +23,9 @@ h1 {
     border-radius: 10px;
     margin: 2%;
     padding: 2%;
+    text-align: center;
 }
-#tituloHistoria, #tituloCF, #tituloFilosofia, #tituloAventuras {
+#tituloHistoria, #tituloCF, #tituloFilosofia, #tituloAventuras, #titulo {
     background-color: rgba(255, 255, 255, 0.767);
     border-radius: 10px;
     margin: 2%;
