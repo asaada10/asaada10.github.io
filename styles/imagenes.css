@@ -1,7 +1,5 @@
 .principal {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: 30px;
 }
 img {
     object-fit: cover;
@@ -13,7 +11,7 @@ img:hover {
     filter: grayscale(100%);
 }
 
-#libromasvendido img, #libromejorvalorado img{
+#libromasvendido img, #libromejorvalorado img, div a img{
     max-height: 25vw;
 }
 

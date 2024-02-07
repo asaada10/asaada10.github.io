@@ -3,15 +3,20 @@ select, input[type="submit"] {
     margin: 10px 0;
     padding: 10px 30px;
 }
+input:not([type="radio"]) {
+    display: block;
+}
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 20px;
 }
 
 #formulario {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 option:disabled {
@@ -19,16 +24,28 @@ option:disabled {
     background-color: #a1eeff;
 }
 
+#reserva {
+    margin-right: 20px;
+}
+
 @media screen and (min-width: 600px) {
     #formulario {
-        flex-direction: row;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: inherit;
+
+}
     }
     
-}
+
 
 @media screen and (min-width: 1024px) {
     #formulario {
+        display: flex;
         flex-direction: row;
+        align-items: inherit;
+
+    }
     }
     
-}
