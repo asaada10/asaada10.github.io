@@ -130,4 +130,13 @@ footer {
     }
 
 }
-
+#footer{
+    margin-top: 3%;
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+#contactoFoot{
+    position: absolute;
+    left: 25%;
+}
